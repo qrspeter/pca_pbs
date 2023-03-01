@@ -120,7 +120,7 @@ if __name__ == "__main__":
     training_set_inputs[2] = opening(data_dir + 'PbS1060 on micadrop.arc_data')
     training_set_inputs[3] = opening(data_dir + 'PbS1060+acet drop.arc_data')
     training_set_inputs[4] = opening(data_dir + 'PbS1060+met drop.arc_data')
-    training_set_inputs[5] = opening(data_dir + 'PbS1060+iso drop.arc_data')
+    training_set_inputs[5] = opening(data_dir + 'PbS1060+iso drop.arc_data') # wrond sample
 
     training_set_inputs[6] = opening(data_dir + 'PbS1640 on glass drop.arc_data')
     training_set_inputs[7] = opening(data_dir + 'PbS1640 on mica drop.arc_data')

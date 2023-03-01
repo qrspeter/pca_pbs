@@ -14,10 +14,10 @@ import seaborn as sns
 data = pd.read_csv('./data/pbs.csv')
 
 # The last column of the Data Frame contains the labels
-lab = data.values[:,-1].astype('uint8') 
+lab = data.values[[0,1,2,3,4,6,7,8,9,10,11],-1].astype('uint8') 
         
 # Read the features (scans) 
-feat = data.values[:,1:-1]
+feat = data.values[[0,1,2,3,4,6,7,8,9,10,11],1:-1]
 
 # Calculate first derivative applying a Savitzky-Golay filter
 feat = savgol_filter(feat, window_length=25, polyorder=3, deriv=0)

@@ -1,5 +1,6 @@
 # pca_pbs
 
+ML_20230301_2ICPN - presentation of the lecture (https://youtu.be/AViwkDfWuwU)
 
 1. Examples with a single neuron
 

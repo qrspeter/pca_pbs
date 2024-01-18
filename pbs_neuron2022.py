@@ -1,5 +1,7 @@
 # initial idea from  https://medium.com/technology-invention-and-more/how-to-build-a-simple-neural-network-in-9-lines-of-python-code-cc8f23647ca1
 
+# Made by first-year students of the educational program "Physics of Nanostructures" ITMO (Maria, Maria and Gregory).
+
 import tkinter as tk
 from tkinter import ttk
 from tkinter import filedialog as fd

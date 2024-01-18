@@ -6,4 +6,4 @@
 
 * pbs_recognition.ipynb - prediction for PbS spectra.
 
-* neuron_pbs.py - recognition of PbS spectra using a single neuron (student practical work.)
+* pbs_neuron2022.py/pbs_neuron2023.py - recognition of PbS spectra using a single neuron (student's practical work.)
